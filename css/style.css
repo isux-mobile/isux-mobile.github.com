@@ -251,7 +251,6 @@ td                            { vertical-align: top; }
 
   div.primary                 { background:#f6f6f6; padding:10%; position: relative; /*outline:1px solid red;*/ }
   div.content                 { padding:10%; position: relative;/*outline:1px solid blue;*/ }
-  div.ads                     { display:none; }
   div.blog {line-height: 1.5;}
 
   /* Most layout declared in media queries, below */
@@ -266,17 +265,6 @@ td                            { vertical-align: top; }
   div.content img             { margin:1em 0; max-width:100%; }
   article figure figcaption   { padding:0 5% 2em 0; }
 
-  /* ----------------------------------------------------------------------------------------------------------
-  06 Ads ------------------------------------------------------------------------------------------------------
-  ---------------------------------------------------------------------------------------------------------- */
-
-  div.fusionads a,
-  div.authenticjobs p a       { border:none; color:rgba(0,0,0,0.3); }
-  div.fusionads p             { padding-top:1em; }
-  div.fusionads img           { margin:1em 0; max-width:100%;}
-  div.authenticjobs img       { float:left; margin:0.5em 1em 1em 0; }
-  div.authenticjobs p.job-listings + p { clear:both; }
-  div.primary.sticky          { }
 
   /* ----------------------------------------------------------------------------------------------------------
   07 Blog Posts -----------------------------------------------------------------------------------------------
