@@ -1,7 +1,18 @@
-<html>
-<head>11</head>
-<body>
-
-helo
-</body>
-</html>
+---
+layout: default
+title: {{ site.title }}
+---
+<div class="yearly-archive archive-page">
+　　{% for post in site.posts %}
+	{% unless post.next %}
+      <h2>{{ post.date | date: '%Y' }}</h2>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+      {% endif %}
+    {% endunless %}
+		<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <span class='category-tag'>[{{ post.categories }}]</span><span class='date'>{{post.date | date: "%m月 %d日"}}</span></p>
+	{% endfor %}
+ </div>

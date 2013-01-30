@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="robots" content="all" />
+　　<title>{{ page.title }}</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+<div class="blog">
+	<div class="container group">
+		{% include sidebar.html %}
+
+        <div class="content">
+	      	<div class="content-inner">
+	      	{{ content }}
+	      	</div>
+        </div>
+
+	</div>
+
+	{% include footer.html %}
+
+</body>
+</html>
