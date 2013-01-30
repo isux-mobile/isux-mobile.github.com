@@ -293,12 +293,9 @@ td                            { vertical-align: top; }
   08 Blog Archive ---------------------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------------------- */
 
-  .archive-page {margin-top: -35px;}
-  .archive-page h2 {color:rgba(0,0,0,0.3);font-size: 4em;margin:0 0 10px;}
-  .archive-page h3 {color:rgba(0,0,0,0.3);font-size: 2em;margin: 10px 0;}
-  .archive-page a {color:#333;}
-  .archive-page span.date                    { color:rgba(0,0,0,0.3); display:block; }
-  .archive-page span.category-tag {color:rgba(0,0,0,0.3);}
+  .category-list {margin-top: -35px;}
+  .category-list li {float:left;width:200px;position: relative;}
+  .category-list .avatar {height:50px;width:50px;border-radius: 30px;border:5px solid #fff;position: absolute;top:0;left:200px;}
 
   /* ----------------------------------------------------------------------------------------------------------
   11 Media Queries (using a mobile-first approach) ------------------------------------------------------------

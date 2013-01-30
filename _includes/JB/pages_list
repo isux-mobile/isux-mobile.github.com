@@ -4,11 +4,9 @@
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
-      	{% else %}
-      	<li><img src="{{ BASE_PATH }}files/avatar/{{node.user}}.png" /><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
-      	{% endif %}
+      	<li>
+        <a href="{{ BASE_PATH }}{{node.url}}"><img class="thumb" src="{{node.image}}"/></a>
+        <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><img class="avatar" src="{{ BASE_PATH }}files/avatar/{{node.author}}.jpeg" /></li>
       {% endif %}
     {% endif %}
   {% endfor %}
