@@ -286,7 +286,7 @@ td                            { vertical-align: top; }
   .single-post pre code {margin:0;padding:0;background-color: transparent;border:none;white-space:pre;}
 
   .tag-box {overflow: hidden;*zoom:1;margin-bottom: 20px;}
-  .tag-box li {float:left;margin-right: 15px;}
+  .tag-box li {margin-right: 15px;}
   .tag-box li a {display: block;background: #fefefe;border: 1px solid #ddd;border-radius: 5px;
     padding: 2px 7px;position: relative;}
   .tag-box li span {position: absolute;color: #fff;background: #FE6600;display: block;padding: 0 5px;font-size: 12px;
