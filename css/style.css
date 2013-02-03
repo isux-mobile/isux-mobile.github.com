@@ -287,15 +287,18 @@ td                            { vertical-align: top; }
 
   .tag-box {overflow: hidden;*zoom:1;margin-bottom: 20px;}
   .tag-box li {margin-right: 15px;}
-  .tag-box li a {background: #e9e9e9;background: rgba(0, 0, 0, 0.05);}
+  .tag-box li a {background: #e9e9e9;background: rgba(0, 0, 0, 0.05);display: block;color:#333;}
+  .tag-box li a span {display: none;}
 
   /* ----------------------------------------------------------------------------------------------------------
   08 Blog Archive ---------------------------------------------------------------------------------------------
   ---------------------------------------------------------------------------------------------------------- */
-
-  .category-list {margin-top: -35px;}
-  .category-list li {float:left;width:200px;position: relative;}
-  .category-list .avatar {height:50px;width:50px;border-radius: 30px;border:5px solid #fff;position: absolute;top:0;left:200px;}
+  .category-list a {color:#000;}
+  .category-list h2 {color:rgba(0,0,0,0.3);}
+  .category-list li {float:left;width:200px;position: relative;margin:0 10px 0 0;padding:0;}
+  .category-list img {padding:0;margin:0;}
+  .category-list .avatar {height:50px;width:50px;border-radius: 30px;
+    border:5px solid #fff;position: absolute;top:0;right:0;border-top-right-radius: 0}
 
   /* ----------------------------------------------------------------------------------------------------------
   11 Media Queries (using a mobile-first approach) ------------------------------------------------------------
