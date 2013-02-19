@@ -5,8 +5,7 @@
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	<li>
-        <a href="{{ BASE_PATH }}{{node.url}}"><img class="thumb" src="{{node.image}}"/></a>
-        <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><img class="avatar" src="{{ BASE_PATH }}files/avatar/{{node.author}}.jpeg" /></li>
+        <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><span class="author">{{node.author}}</span></li>
       {% endif %}
     {% endif %}
   {% endfor %}
