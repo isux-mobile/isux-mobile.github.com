@@ -1,6 +1,6 @@
 baseurl: /
 url: http://mobile.isux.us/
-title: ISUX Mobile
+title: ISUX Mobile Document
 author: ISUX
 permalink: post/:title/
 markdown: kramdown

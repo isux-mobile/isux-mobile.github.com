@@ -272,6 +272,7 @@ td                            { vertical-align: top; }
   .single-post {color:rgba(0,0,0,0.7);margin-top: -10px;}
   .single-post h1 {font-size:2.5em;}
   .single-post h2 {margin: 20px 0 10px;}
+  .single-post .post-author { margin-right: 10px;;}
   .single-post .post-date {color:rgba(0,0,0,0.4);margin-bottom: 1em;}
   .single-post .previous-next-nav {overflow: hidden;*zoom:1;}
   .single-post .previous {float:left;}
