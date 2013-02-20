@@ -3,8 +3,7 @@ layout: post
 title: 那些耗费比较大的CSS属性
 date: 2013-02-01 14:35
 comments: true
-categories: [Web Page]
-image: http://getimg.in/200x100
+categories: [前端]
 author: yuguo
 ---
 以下几个是耗费比较大的css属性：

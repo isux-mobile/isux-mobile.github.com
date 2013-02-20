@@ -3,7 +3,7 @@ layout: post
 title: 切图原则
 date: 2013-02-20 14:35
 comments: true
-categories: [Web Page]
+categories: [前端]
 author: yuguo
 ---
 在处理移动端页面的切图的时候，有一些经验是跟桌面端不一样的，这主要是因为移动端设备有更加多样的分辨率，以及移动设备的性能比桌面更差，所以我们需要考虑渲染速度和性能。
