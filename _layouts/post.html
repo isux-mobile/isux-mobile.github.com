@@ -15,8 +15,7 @@
         <div class="content single-post">
 	      	<div class="content-inner">
 	      	<h1>{{ page.title }}</h1>
-	      	<span class="post-date">{{ page.date | date: "%Y年 %m月 %d日" }}</span>
-	      	<span class="post-author">{{ page.author }}</span>
+	      	 <span class="post-author">{{ page.author }}</span><span class="post-date">{{ page.date | date: "%Y年 %m月 %d日" }}</span>
 
 	      	{{ content }}
 	      	<p class='previous-next-nav'><a href="http://yuguo.us/{{page.next.url}}" class="next">{{page.next.title}} &rarr;</a>
